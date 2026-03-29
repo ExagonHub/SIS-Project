@@ -13,7 +13,7 @@ This project is being developed as a learning project to practice:
 
 # Current Version
 
-v0.0.1
+v0.0.2
 
 ---
 
@@ -23,6 +23,8 @@ Current system capabilities:
 
 * Add Student
 * Find Student
+* List Students
+* Delete Student
 * Quit Application
 
 Students are currently stored in memory using a Python dictionary.
@@ -88,9 +90,10 @@ Additional documentation can be found in the `docs` folder:
 
 Future versions will include:
 
-* student listing
-* student deletion
 * input validation
+* duplicate student ID control
+* improved error messages
+* delete confirmation step
 * JSON data persistence
 * object-oriented data models
 * automated tests

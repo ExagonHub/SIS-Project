@@ -61,30 +61,20 @@ v0.0.3
 
 ---
 
-### Student Listing Feature Missing
+### Delete Confirmation Missing
 
-Currently, students cannot be viewed as a list.
+The system allows direct deletion of students without any confirmation step.
 
-Impact:
+Possible Problems:
 
-* Users cannot see all stored students without knowing their IDs.
+* Users may accidentally delete the wrong student.
+* Data loss risk increases.
 
-Planned Feature:
+Planned Fix:
 
-* Implement `list_students()` function.
-
-Target Version:
-v0.0.2
-
----
-
-### Student Deletion Feature Missing
-
-There is currently no way to remove students from the system.
-
-Planned Feature:
-
-* Implement `delete_student()` function.
+* Add a confirmation step before deletion (e.g. "Are you sure?").
 
 Target Version:
-v0.0.2
+v0.0.3
+
+

@@ -1,3 +1,5 @@
+# Add Student
+
 def add_student(students):
 
     student_id = input('Student ID:')
@@ -15,6 +17,7 @@ def add_student(students):
 
     print('Student added successfully.')
 
+# Find Student
 
 def find_student(students):
 
@@ -30,5 +33,33 @@ def find_student(students):
         print('Age:', student['age'])
         print('Department:', student['department'])
 
+    else:
+        print('Student not found.')
+
+# List Student
+
+def list_student(students):
+    if not students:
+        print('No students found.')
+        return
+    
+    print('\n--- Student List ---')
+
+    for student_id, student_info in students.items():
+        print('Student ID: ',student_id)
+        print('Student name: ',student_info['name'])
+        print('Student Last Name: ',student_info['last_name'])
+        print('Age: ',student_info['age'])
+        print('Department: ',student_info['department'])
+        print('----------------------')
+
+# Delete Student
+
+def delete_student(students):
+    student_id = (input('Enter Student ID: '))
+
+    if student_id in students:
+        del students[student_id]
+        print('Student deleted successfully.')
     else:
         print('Student not found.')

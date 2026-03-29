@@ -1,5 +1,5 @@
 from ui.menu import show_menu
-from services.student_service import add_student, find_student
+from services.student_service import add_student, find_student, list_student , delete_student
 
 students = {}
 
@@ -18,6 +18,12 @@ def main():
             find_student(students)
 
         elif choice == '3':
+            list_student(students)
+
+        elif choice == '4':
+            delete_student(students)
+
+        elif choice == '5':
             print('Exiting program..')
             break
 
