@@ -1,9 +1,6 @@
 # Student Information System (SIS)
-
 A modular command-line based Student Information System written in Python.
-
 This project is being developed as a learning project to practice:
-
 * modular programming
 * software architecture
 * CLI application design
@@ -11,48 +8,37 @@ This project is being developed as a learning project to practice:
 
 ---
 
-# Current Version
-
-v0.0.2
+> **Note:** This project is currently on hold. Development will continue from where it left off in the future.
 
 ---
-
+# Current Version
+v0.0.2
+---
 # Features
-
 Current system capabilities:
-
 * Add Student
 * Find Student
 * List Students
 * Delete Student
 * Quit Application
-
 Students are currently stored in memory using a Python dictionary.
-
 ---
-
 # Project Structure
-
 ```
 SIS-PROJECT/
-
 core/
 data/
 models/
 services/
 ui/
-
 docs/
 tests/
-
 main.py
 README.md
 requirements.txt
 .gitignore
 ```
-
 ### Folder Description
-
 **core/**
 Core utilities and system-level modules.
 
@@ -75,21 +61,14 @@ Project documentation including roadmap, devlog and known issues.
 Unit tests (planned for future versions).
 
 ---
-
 # Documentation
-
 Additional documentation can be found in the `docs` folder:
-
 * `docs/roadmap.md`
 * `docs/devlog.md`
 * `docs/known_issues.md`
-
 ---
-
 # Roadmap
-
 Future versions will include:
-
 * input validation
 * duplicate student ID control
 * improved error messages
@@ -99,19 +78,9 @@ Future versions will include:
 * automated tests
 
 See the full roadmap in:
-
 docs/roadmap.md
 
 ---
-
 # Requirements
-
 Python 3.x
-
 No external libraries are required at this stage.
-
----
-
-# Project Status
-
-This project is under active development and is being expanded step-by-step as part of a learning process.
